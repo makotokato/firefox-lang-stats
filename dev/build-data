@@ -66,10 +66,11 @@ c=$(git_loc '*.c')
 echo_data_line 'C' $((c + h/3)) ','
 cpp=$(git_loc '*.cc' '*.cpp' '*.cxx' '*.hxx')
 echo_data_line 'C++' $((cpp + 2*h/3)) ','
-echo_data_line 'JavaScript' $(git_loc '*.jsm' '*.jsx' '*.js') ','
+echo_data_line 'JavaScript' $(git_loc '*.jsm' '*.jsx' '*.js' '*.mjs') ','
 echo_data_line 'HTML' $(git_loc '*.htm' '*.html' '*.xhtml' '*.xht' '*.css') ','
 echo_data_line 'Python' $(git_loc '*.py') ','
 echo_data_line 'Java' $(git_loc '*.java') ','
+echo_data_line 'Kotlin' $(git_loc '*.kt') ','
 echo_data_line 'Assembly' $(git_loc '*.asm')
 
 echo_data_footer
