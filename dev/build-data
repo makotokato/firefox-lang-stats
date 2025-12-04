@@ -71,7 +71,7 @@ echo_data_line 'HTML' $(git_loc '*.htm' '*.html' '*.xhtml' '*.xht' '*.css') ','
 echo_data_line 'Python' $(git_loc '*.py') ','
 echo_data_line 'Java' $(git_loc '*.java') ','
 echo_data_line 'Kotlin' $(git_loc '*.kt') ','
-echo_data_line 'Assembly' $(git_loc '*.asm')
+echo_data_line 'Assembly' $(git_loc '*.asm' '*.s' '*.S')
 
 echo_data_footer
 
