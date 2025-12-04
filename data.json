@@ -1,14 +1,15 @@
 {
-"meta_date": "2025-12-04T07:17:01+00:00",
+"meta_date": "2025-12-04T07:27:36+00:00",
 "title_date": "Dec 2025",
 "lang": [
 {"name":"Rust", "loc":5089847},
 {"name":"C", "loc":5538562},
 {"name":"C++", "loc":10867640},
-{"name":"JavaScript", "loc":10409361},
+{"name":"JavaScript", "loc":11626805},
 {"name":"HTML", "loc":6403894},
 {"name":"Python", "loc":2146596},
 {"name":"Java", "loc":286853},
+{"name":"Kotlin", "loc":794662},
 {"name":"Assembly", "loc":294671}
 ]
 }
